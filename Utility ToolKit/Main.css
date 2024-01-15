@@ -1,0 +1,203 @@
+.background {
+    margin: 1px;
+    padding: 0px;
+    height:350px;
+    width: 600px;
+    background-color: black;
+}
+.App_name {
+    margin: 10px;
+    padding: 0px;
+    color:#00ff00;
+    position: absolute;
+    top: auto;
+    left: 3%;
+    transform: translate(-50, -50);
+}
+.View-port {
+    margin: 0px;
+    padding: 0px;
+    height: 350px;
+    width: 600px;
+    background-image: linear-gradient(#00ff00, black);
+    border: 7px solid black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50, -50);
+}
+.box {
+    height: 320px;
+    width: 565px;
+    background-color: black;
+    border: 5px solid #00ff00;
+    z-index: 2;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    transform: translate(-50, -50);
+}
+.carousel {
+    height: 165px;
+    width: 495px;
+    background-color: black;
+    border: 1px solid #00ff00;
+    z-index: 3;
+    Display: flex;
+    flex-direction: horizontal;
+    overflow-x: auto;
+    overflow-y: visible;
+    position: absolute;
+    top: 26%;
+    left: 6%;
+    transform: translate(-50, -50);
+}
+.carousel::-webkit-scrollbar{
+    background-color: black;
+    border: 2px solid #00ff00;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background-color: #00ff00;
+    border-radius: 15px;
+}
+.carousel img {
+    height: 150px;
+    width: 150px;
+   opacity: 100%;
+}
+.Iconbox {
+    height: 40px;
+    width: 40px;
+    border: 2px solid #00ff00;
+    position: absolute;
+    top: 8.5%;
+    left: 6%;
+    border-radius: 5px;
+    transform: translate(-50, -50);
+    -webkit-transition: -webkit-transform 1s;
+}
+.Iconbox:hover{
+    -webkit-transform: rotate(360deg) translateZ(0);
+}
+.Searchbar {
+    margin: 0px;
+    padding: 0px;
+    height: 35px;
+    width: 437px;
+    background-color: black;
+    border: 3px solid #00ff00;
+    position: absolute;
+    top: 9%;
+    left: 14.5%;
+    transform: translate(-50, -50);
+}
+.Searchbar .Inputbar {
+    margin: 0px;
+    padding: 0px;
+    height: 19px;
+    width: 385px;
+    position: absolute;
+    top: 17%;
+    left: 2%;
+    transform: translate(-50, -50);
+    border-radius: 8px;
+    border: 1px solid #00ff00;
+    background-color: black;
+    color: #00ff00;
+}
+.Searchbar .Right_arrow {
+    height: 30px;
+    width: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(Right_arrow.png);
+    background-size: cover;
+    border: 0px;
+    position: absolute;
+    top: 9%;
+    left: 92%;
+    transform: translate(-50, -50);
+}
+.menu {
+    height: 55px;
+    width: 200px;
+    z-index: 2;
+    position: absolute;
+    top: 79%;
+    left: 33%;
+    transform: translate(-50, -50);
+    border: 3px solid #00ff00;
+    background-color: black;
+}
+.Settings_Icon {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(Settings_icon.png);
+    background-size: cover;
+    border:  1px solid #00ff00;
+    border-radius: 10px;
+    z-index: 3;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50, -50);
+}
+.Terminal_Icon {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    background-image: url(Terminal_icon.png);
+    background-size: cover;
+    border: 1px solid #00ff00;
+    border-radius: 10px;
+    z-index: 3;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    transform: translate(-50, -50);
+    -webkit-transition: -webkit-transform 1s;
+}
+.Key_Icon {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    background-image: url(Key_icon.png);
+    background-size: cover;
+    border:  1px solid #00ff00;
+    border-radius: 10px;
+    z-index: 3;
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    transform: translate(-50, -50);
+}
+.Settings_Icon:hover {
+    transform: scale(1.3)
+}
+.Terminal_Icon:hover {
+    -webkit-transform: rotate(360deg) translateZ(0);
+}
+.Key_Icon:hover {
+    transform: scale(1.3)
+}
+.carousel button:hover {
+    transform: scale(1.1)
+}
+.carousel button {
+    margin: 5px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    top: 0%;
+    border-radius: 10px;
+    border: 3px solid #00ff00;
+    background-color: black;
+}
+.carousel img {
+    height: 125px;
+    width:125px;
+    position: relative;
+    top: 1%;
+    transform: translateY(-50);
+}

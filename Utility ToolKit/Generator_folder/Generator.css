@@ -1,0 +1,209 @@
+.background {
+    margin: 1px;
+    padding: 0px;
+    height:350px;
+    width: 600px;
+    background-color: black;
+}
+.View-port {
+    margin: 0px;
+    padding: 0px;
+    height: 350px;
+    width: 600px;
+    background-image: linear-gradient(#00ff00, black);
+    border: 7px solid black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50, -50);
+}
+.box {
+    height: 320px;
+    width: 565px;
+    background-color: black;
+    border: 5px solid #00ff00;
+    z-index: 2;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    transform: translate(-50, -50);
+}
+.Homebox {
+    height: 40px;
+    width: 50px;
+    border: 1px solid #00ff00;
+    background-color: black;
+    position: absolute;
+    top: 4%;
+    left: 1%;
+    transform: translate(-50, -50);
+
+}
+.Home {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 11%;
+    left: 17%;
+    transform: translate(-50, -50)
+}
+.Menubar {
+    height: 38px;
+    width: 445px;
+    border: 1px solid #00ff00;
+    background-color: black;
+    Display: flex;
+    flex-direction: horizontal;
+    overflow: hidden;
+    position: absolute;
+    top: 4%;
+    left: 11%;
+    transform: translate(-50, -50);
+}
+.Menubar button {
+    padding: 1px;
+    margin: 1px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #00ff00;
+    background-color: black;
+}
+.Menubar img {
+    height: 30px;
+    width: 30px;
+}
+.Menubar h2 {
+    Margin: 5px;
+    Padding: 5px;
+    color:#00ff00;
+}
+.Generatorbox {
+    margin: 1px;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 3%;
+    left: 91%;
+    transform: translate(-50, -50);
+    background-color: black;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+}
+.Generatorbox img {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 4%;
+    left: 0%;
+    transform: translate(-50, -50);
+}
+.Contentbox {
+    margin: 0px;
+    height: 242px;
+    width: 542px;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    transform: translate(-50, -50);
+    background-color: black;
+    border: 2px solid #00ff00;
+    border-radius: 1px;
+    color: #00ff00;
+}
+.Subbox {
+    margin: 0px;
+    height: 210px;
+    width: 510px;
+    position: absolute;
+    top: 6%;
+    left: 3%;
+    transform: translate(-50, -50);
+    background-color: black;
+    border: 1px solid #00ff00;
+    border-radius: 1px;
+    color: #00ff00;
+}
+.Generatoriconbox {
+    height: 150px;
+    width: 200px;
+    border: 1px solid #00ff00;
+    border-radius: 10px;
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    transform: translate(-50, -50);
+    background-color: black;
+}
+.Generatoriconbox img {
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 13%;
+    transform: translate(-50, -50);
+}
+.Generatepassword, .Savedpasswords, .Autocompleteform {
+    height: 40px;
+    width: 280px;
+    background-color: black;
+    border: 1px solid #00ff00;
+    border-radius: 10px;
+    color: #00ff00;
+}
+.Generatepassword {
+    position: absolute;
+    top: 4%;
+    left: 43%;
+    transform: translate(-50, -50);
+}
+.Savedpasswords {
+    position: absolute;
+    top: 29%;
+    left: 43%;
+    transform: translate(-50, -50);
+}
+.Autocompleteform {
+    position: absolute;
+    top: 54%;
+    left: 43%;
+    transform: translate(-50, -50);
+}
+.Generatepassword h2, .Savedpasswords h2, .Autocompleteform h2 {
+    Padding: 5px;
+    Margin: 5px;
+    color: #00ff00;
+}
+.Outputbox {
+    height: 38px;
+    width: 445px;
+    background-color: black;
+    border: 1px solid #00ff00;
+    border-radius: 10px;
+    position: absolute;
+    top: 79%;
+    left: 1%;
+    transform: translate(-50, -50);
+}
+.Right_arrow {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 6%;
+    left: 7%;
+    transform: translate(-50, -50);
+}
+.Arrow {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border: 1px solid #00ff00;
+    border-radius: 10px;
+    position: absolute;
+    top: 78%;
+    left: 90%;
+    transform: translate(-50, -50);
+    -webkit-transition: -webkit-transform 1s;
+}
+.Arrow:hover{
+    -webkit-transform: rotate(360deg) translateZ(0);
+}
